@@ -1,0 +1,83 @@
+@mixin text($color, $fs, $fw) {
+  color: $color;
+  font-size: $fs;
+  font-weight: $fw;
+}
+
+@mixin button($color, $fs, $bg-color, $pd-top-bottom, $pd-right-left, $border-color, $color-hover, $bg-color-hover, $border-color-hover) {
+  color: $color;
+  font-size: $fs;
+  background: $bg-color;
+  padding: $pd-top-bottom $pd-right-left;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  &:hover {
+    color: $color-hover;
+    background: $bg-color-hover;
+    border: 1px solid $border-color-hover;
+  }
+}
+
+@mixin mediaQuery($screen) {
+  @if map-has-key($map: $breakpoints, $key: $screen) {
+    $value: map-get($map: $breakpoints, $key: $screen);
+    @media screen and (max-width: $value) {
+      @content;
+    }
+  }
+  @else {
+    @warn "`#{$screen}` khong ton tai";
+  }
+}
+
+@mixin search($bg-color, $fs-placeholder, $bg-color-focus, $border-color-focus) {
+  form {
+    background: $bg-color;
+    .form-control {
+      background: transparent;
+      border-color: transparent;
+      transition: none;
+      &::placeholder {
+        font-size: $fs-placeholder;
+      }
+      &:focus {
+        box-shadow: none;
+        transition: none;
+        background: $bg-color-focus;
+        border-top-color: $border-color-focus;
+        border-bottom-color: $border-color-focus;
+        border-left-color: $border-color-focus;
+      }
+      &:focus+.input-group-append {
+        button {
+          transition: none;
+          background: $bg-color-focus;
+          border-top-color: $border-color-focus;
+          border-bottom-color: $border-color-focus;
+          border-right-color: $border-color-focus;
+          &:hover {
+            color: $color-white-0;
+            background: $color-red-0;
+          }
+        }
+      }
+    }
+    .input-group-append {
+      margin-left: -1px;
+      button {
+        border-color: transparent;
+        color: $color-red-0;
+        border-radius: 0;
+        transition: none;
+        &:hover {
+          color: $color-white-0;
+          background: $color-red-0;
+        }
+        &:focus {
+          transition: none;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}

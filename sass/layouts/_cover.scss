@@ -1,0 +1,15 @@
+.cover {
+  background: url("../images/cover.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  .input-search {
+    @include search($color-white-0,
+    $fs-2,
+    $color-white-0,
+    $color-white-0);
+  }
+}
