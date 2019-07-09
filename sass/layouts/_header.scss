@@ -1,5 +1,10 @@
 .header {
   border-bottom: 1px solid;
+  &__inner {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 20px;
+  }
   .header__left {
     display: flex;
     align-items: center;
@@ -41,6 +46,9 @@
         display: flex;
         button {
           white-space: nowrap;
+          &.btn--white {
+            margin-right: 5px;
+          }
         }
       }
     }

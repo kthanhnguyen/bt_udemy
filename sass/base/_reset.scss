@@ -1,4 +1,26 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  color: $color-black-0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: $color-black-0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+p {
+  margin-bottom: 0;
 }

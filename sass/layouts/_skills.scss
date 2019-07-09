@@ -1,0 +1,102 @@
+.skills {
+  margin-top: 20px;
+  &__left {
+    background: $color-gray-5;
+    padding: 0 32px;
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    .__head {
+      font-size: 19px;
+      font-weight: $fw-bold-0;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .nav-tabs {
+    margin-bottom: 15px;
+    .nav-link {
+      border-bottom: 6px solid transparent;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      color: $color-black-0;
+      &.active {
+        border-color: #007791;
+      }
+    }
+  }
+  &__items {
+    a {
+      display: block;
+      width: 219px;
+      height: 290px;
+      .card {
+        height: 100%;
+        .card-body {
+          padding: 15px 15px 0 15px;
+        }
+      }
+    }
+  }
+}
+
+.skills__content {
+  position: relative;
+  .skills__name {
+    font-size: $fs-0;
+    position: relative;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    span {
+      display: block;
+      word-wrap: break-word;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      height: 2.5em;
+    }
+  }
+  .skills__author {
+    font-size: 12px;
+    color: $color-gray-4;
+    margin-bottom: 10px;
+  }
+}
+
+.rating-stars {
+  margin-bottom: 10px;
+  li {
+    display: inline;
+    span {
+      font-size: $fs-1;
+      color: $color-yellow;
+    }
+    &.rating-number p {
+      display: inline;
+      font-size: $fs-1;
+      color: $color-gray-4;
+      &.rating-point {
+        font-weight: $fw-bold-0;
+        color: $color-black-0;
+      }
+    }
+  }
+}
+
+.skills__price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  .old-price {
+    font-size: $fs-1;
+    color: $color-gray-4;
+    margin-right: 10px;
+  }
+  .current-price {
+    font-size: 18px;
+    font-weight: $fw-bold-0;
+  }
+}

@@ -30,6 +30,18 @@
   }
 }
 
+@mixin mediaQueryMin($screen) {
+  @if map-has-key($map: $breakpoints, $key: $screen) {
+    $value: map-get($map: $breakpoints, $key: $screen);
+    @media screen and (min-width: $value) {
+      @content;
+    }
+  }
+  @else {
+    @warn "`#{$screen}` khong ton tai";
+  }
+}
+
 @mixin search($bg-color, $fs-placeholder, $bg-color-focus, $border-color-focus) {
   form {
     background: $bg-color;

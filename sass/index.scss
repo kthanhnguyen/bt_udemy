@@ -2,7 +2,9 @@
 @import "./helpers/mixin";
 @import "./base/reset";
 @import "./base/customize";
+@import "./components/common";
 @import "./components/button";
 @import "./layouts/header";
 @import "./layouts/cover";
-@import "./layouts/footer"
+@import "./layouts/skills";
+@import "./layouts/footer";

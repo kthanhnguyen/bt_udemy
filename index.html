@@ -6,62 +6,68 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="./css/slick-theme.css">
+  <link rel="stylesheet" href="./css/slick.css">
   <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
   <header class="header">
-    <nav class="navbar navbar-expand-md navbar-light">
-      <button class="navbar-toggler col-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      <div class="col-xl-7 col-ld-8 col-md-9 col-8">
-        <div class="header__left">
-          <a class="navbar-brand" href="#"><img src="./images/logo-coral.svg" alt=""></a>
-          <p class="header__categories"><i class="fa fa-list"></i> Categories</p>
-          <div class="input-search">
-            <form action="#">
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search for anything" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                  <button class="btn btn-outline-secondary" type="button"><i class="fa fa-search"></i></button>
+    <div class="header__inner">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <button class="navbar-toggler col-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="col-xl-7 col-ld-8 col-md-9 col-8">
+          <div class="header__left">
+            <a class="navbar-brand" href="#"><img src="./images/logo-coral.svg" alt=""></a>
+            <p class="header__categories"><i class="fa fa-list"></i> Categories</p>
+            <div class="input-search">
+              <form action="#">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for anything" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button"><i class="fa fa-search"></i></button>
+                  </div>
                 </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-xl-5 col-lg-4 col-md-3">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item business">
-              <a class="nav-link" href="#">Udemy for business</a>
-            </li>
-            <li class="nav-item teach">
-              <a class="nav-link" href="#">Teach on Udemy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
-            </li>
-            <li class="nav-item">
-              <div class="header__button">
-                <button class="btn btn--white">Log In</button>
-                <button class="btn btn--purple">Sign Up</button>
-              </div>
-            </li>
-          </ul>
+        <div class="col-xl-5 col-lg-4 col-md-3">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item business">
+                <a class="nav-link" href="#">Udemy for business</a>
+              </li>
+              <li class="nav-item teach">
+                <a class="nav-link" href="#">Teach on Udemy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+              </li>
+              <li class="nav-item">
+                <div class="header__button">
+                  <button class="btn btn--white">Log In</button>
+                  <button class="btn btn--purple">Sign Up</button>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
   <section class="cover">
-    <div class="container">
-      <div class="col-5">
+    <div class="page-container">
+      <div class="col-4">
+        <div class="cover__head">Brighten your future</div>
+        <p class="cover__text">Enroll in a course now for as low as $12.99! Ends 7/11, 11:59 PDT</p>
         <div class="input-search">
           <form action="#">
             <div class="input-group">
@@ -75,6 +81,247 @@
       </div>
     </div>
   </section>
+  <section class="works">
+    <div class="page-container">
+      <div class="row">
+        <div class="col-4 works__items">
+          <i class="fas fa-location-arrow"></i>
+          <div class="works__text">
+            <b>100,000 online courses</b>
+            <div class="works__sub-title">
+              Explore a variety of fresh topics
+            </div>
+          </div>
+        </div>
+        <div class="col-4 works__items">
+          <i class="far fa-check-circle"></i>
+          <div class="works__text">
+            <b>Expert instruction</b>
+            <div class="works__sub-title">
+              Find the right instructor for you
+            </div>
+          </div>
+        </div>
+        <div class="col-4 works__items">
+          <i class="fas fa-history"></i>
+          <div class="works__text">
+            <b>Lifetime access</b>
+            <div class="works__sub-title">
+              Learn on your schedule
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills">
+    <div class="page-container">
+      <div class="row">
+        <div class="col-4 skills__left">
+          <div class="skills__left-content">
+            <p class="__head">The world’s largest selection of courses</p>
+            <p>Choose from over 100,000 online video courses with new additions published every month</p>
+          </div>
+        </div>
+        <div class="col-8">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="development-tab" data-toggle="tab" href="#development" role="tab" aria-controls="development" aria-selected="true">Development</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab" aria-controls="design" aria-selected="false">Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="business-tab" data-toggle="tab" href="#business" role="tab" aria-controls="business" aria-selected="false">Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="itandsoftware-tab" data-toggle="tab" href="#itandsoftware" role="tab" aria-controls="itandsoftware" aria-selected="false">IT & Software</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="personaldevelopment-tab" data-toggle="tab" href="#personaldevelopment" role="tab" aria-controls="personaldevelopment" aria-selected="false">Personal Development</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="marketing-tab" data-toggle="tab" href="#marketing" role="tab" aria-controls="marketing" aria-selected="false">Marketing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="photography-tab" data-toggle="tab" href="#photography" role="tab" aria-controls="photography" aria-selected="false">Photography</a>
+            </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="development" role="tabpanel" aria-labelledby="development-tab">
+              <div class="skills__content">
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <img class="card-img-top" src="./images/kh1.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <img class="card-img-top" src="./images/kh2.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                        <p class="skills__author">Kyle Pew</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <img class="card-img-top" src="./images/kh3.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <img class="card-img-top" src="./images/kh4.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <img class="card-img-top" src="./images/kh5.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <img class="card-img-top" src="./images/kh6.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                        <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="design" role="tabpanel" aria-labelledby="design-tab">...</div>
+            <div class="tab-pane" id="business" role="tabpanel" aria-labelledby="business-tab">...</div>
+            <div class="tab-pane" id="itandsoftware" role="tabpanel" aria-labelledby="itandsoftware-tab">...</div>
+            <div class="tab-pane" id="personaldevelopment" role="tabpanel" aria-labelledby="personaldevelopment-tab">...</div>
+            <div class="tab-pane" id="marketing" role="tabpanel" aria-labelledby="marketing-tab">...</div>
+            <div class="tab-pane" id="photography" role="tabpanel" aria-labelledby="photography-tab">...</div>
+          </div>
+
+        </div>
+      </div>
+  </section>
 
 
   <!-- Optional JavaScript -->
@@ -82,6 +329,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="./js/slick.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
