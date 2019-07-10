@@ -1,5 +1,25 @@
 .skills {
   margin-top: 20px;
+  .skills__wrap-01 {
+    margin-bottom: 30px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .skills__wrap-02 {
+    h2 {
+      font-size: 19px;
+      color: $color-black-light;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+  }
+  .slick-list {
+    padding: 2px 0 8px 4px;
+    margin: -2px 8px -8px -4px;
+  }
+  &__tab {
+    padding: 0 0;
+  }
   &__left {
     background: $color-gray-5;
     padding: 0 32px;
@@ -31,32 +51,41 @@
   &__items {
     a {
       display: block;
-      width: 219px;
+      // width: 215px;
       height: 290px;
+      margin-right: 10px;
+      @include transition;
+      &:hover {
+        .card-img-top {
+          background: $color-black-0;
+          img {
+            opacity: .5;
+          }
+        }
+      }
       .card {
         height: 100%;
+        border: none;
+        box-shadow: 0 0 1px 1px rgba(20, 23, 28, .1), 0 3px 1px 0 rgba(20, 23, 28, .1);
+        border-radius: $border-radius;
+        &:hover {
+          box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+        }
         .card-body {
           padding: 15px 15px 0 15px;
         }
       }
     }
   }
-}
-
-.skills__content {
-  position: relative;
   .skills__name {
     font-size: $fs-0;
     position: relative;
     margin-bottom: 10px;
+    width: 100%;
     display: inline-block;
-    vertical-align: top;
+    height: 2.5em;
     span {
       display: block;
-      word-wrap: break-word;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      height: 2.5em;
     }
   }
   .skills__author {
@@ -64,6 +93,10 @@
     color: $color-gray-4;
     margin-bottom: 10px;
   }
+}
+
+.skills__content {
+  position: relative;
 }
 
 .rating-stars {

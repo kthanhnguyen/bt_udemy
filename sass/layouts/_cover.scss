@@ -16,6 +16,7 @@
     font-size: 18px;
     line-height: 1.61;
     color: $color-white-0;
+    margin: 5px 0 15px;
   }
   .input-search {
     @include search($color-white-0,
