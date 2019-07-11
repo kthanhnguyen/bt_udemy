@@ -1,0 +1,32 @@
+.banner {
+  .banner__top {
+    height: 8px;
+    background: linear-gradient(-45deg, $color-red-0 0, $color-purple 100%);
+  }
+  .banner__content {
+    height: 360px;
+    background: $color-black-0;
+    color: $color-white-cream;
+    text-align: center;
+  }
+}
+
+.banner__wrap {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 48px 0 32px;
+}
+
+.banner__info {
+  margin-left: 0;
+  margin-right: 0;
+  align-items: center;
+  .banner__title {
+    font-size: $fs-3;
+    font-weight: $fw-bold-0;
+    margin-bottom: 16px;
+  }
+  .banner__subtitle {
+    margin-bottom: 24px;
+  }
+}

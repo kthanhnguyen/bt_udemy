@@ -40,3 +40,10 @@
 .btn-right {
   right: -10px;
 }
+
+.btn--link {
+  @include buttonLink($color-red-0, $color-white-0, $fs-0, $color-purple);
+  white-space: nowrap;
+  padding: 11px 12px;
+  border: 1px solid transparent;
+}

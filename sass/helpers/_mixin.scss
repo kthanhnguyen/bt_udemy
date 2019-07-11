@@ -101,3 +101,14 @@
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
+
+@mixin buttonLink($bg-color, $text-color, $fs, $bg-color-hover) {
+  background: $bg-color;
+  color: $text-color;
+  font-size: $fs;
+  @include transition;
+  &:hover {
+    background: $bg-color-hover;
+    color: $text-color;
+  }
+}
