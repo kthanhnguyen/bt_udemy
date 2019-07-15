@@ -5,6 +5,10 @@
     margin: auto;
     padding: 0 20px;
   }
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .header__left {
     display: flex;
     align-items: center;
@@ -17,6 +21,7 @@
     .header__categories {
       margin-bottom: 0;
       flex-grow: 1;
+      white-space: nowrap;
     }
     .input-search {
       flex-grow: 5;

@@ -7,12 +7,10 @@ $('.skills__content').slick({
   prevArrow: '<div class="btn-slider btn-left"><i class = "fas fa-chevron-left"></i></div>',
   nextArrow: '<div class="btn-slider btn-right"><i class="fas fa-chevron-right"></i></div>',
   responsive: [{
-      breakpoint: 1024,
+      breakpoint: 1025,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
+        slidesToScroll: 3
       }
     },
     {
@@ -40,12 +38,10 @@ $('.skills__content-02').slick({
   prevArrow: '<div class="btn-slider btn-left"><i class = "fas fa-chevron-left"></i></div>',
   nextArrow: '<div class="btn-slider btn-right"><i class="fas fa-chevron-right"></i></div>',
   responsive: [{
-      breakpoint: 1024,
+      breakpoint: 1025,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
+        slidesToShow: 4,
+        slidesToScroll: 4
       }
     },
     {
@@ -72,35 +68,37 @@ $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
 });
 
 $('.testimonials__content').slick({
-  dots: false,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 3,
-  slidesToScroll: 3,
-  prevArrow: '<div class="btn-slider btn-left"><i class = "fas fa-chevron-left"></i></div>',
-  nextArrow: '<div class="btn-slider btn-right"><i class="fas fa-chevron-right"></i></div>',
-  responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
+    dots: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    rows: 0,
+    prevArrow: '<div class="btn-slider btn-left"><i class ="fas fa-chevron-left"></i></div>',
+    nextArrow: '<div class="btn-slider btn-right"><i class="fas fa-chevron-right"></i></div>',
+    mobileFirst: true,
+    responsive: [{
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+        }
+      }, {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
       }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-});
+    ]
+  })
+  .on('setPosition', function(event, slick) {
+    slick.$slides.css('height', slick.$slideTrack.height() + 'px');
+  });

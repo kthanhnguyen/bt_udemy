@@ -55,4 +55,23 @@
 
 .non-student-cta__content {
   text-align: center;
+  padding: 28px 30px;
+  border-right: 1px solid #dedfe0;
+}
+
+.non-student-cta {
+  &__title {
+    font-size: 19px;
+    font-weight: $fw-bold-0;
+    line-height: 1.47em;
+    color: $color-black-light;
+    margin-bottom: 5px;
+  }
+  &__text {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  &__link {
+    margin-top: 20px;
+  }
 }
