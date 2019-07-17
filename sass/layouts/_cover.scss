@@ -51,5 +51,16 @@
       display: inline-block;
       text-align: left;
     }
+    @include mediaQuery('medium') {
+      i {
+        display: none;
+      }
+      .works__text {
+        text-align: center;
+      }
+    }
+  }
+  @include mediaMoblie(767px) {
+    display: none;
   }
 }

@@ -9,6 +9,11 @@
     color: $color-white-cream;
     text-align: center;
   }
+  @include mediaQuery('medium') {
+    .__icon {
+      display: none;
+    }
+  }
 }
 
 .banner__wrap {

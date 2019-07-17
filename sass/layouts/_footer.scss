@@ -79,4 +79,9 @@
     font-size: $fs-1;
     margin-left: 20px;
   }
+  @include mediaMoblie(767px) {
+    &__link {
+      display: none;
+    }
+  }
 }

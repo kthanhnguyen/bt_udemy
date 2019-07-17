@@ -66,10 +66,25 @@
   }
   @include mediaQuery('medium') {
     .header__categories {
+      padding: 0 1rem 0 0.5rem;
+    }
+  }
+  @include mediaQuery('small') {
+    .header__categories {
       display: none;
     }
     .input-search {
       display: none;
+    }
+    .navbar-toggler {
+      padding: 0;
+      border: 0;
+    }
+    .input-search-sp {
+      button {
+        border: none;
+        background: $color-white-0;
+      }
     }
   }
 }

@@ -29,6 +29,9 @@
   min-height: 260px;
   padding: 32px;
   background: $color-white-0;
+  @include mediaMoblie(767px) {
+    margin-right: 0;
+  }
 }
 
 .partners {
@@ -51,12 +54,20 @@
   .logo-item {
     margin: 0 30px 8px;
   }
+  @include mediaMoblie(767px) {
+    &__logos {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .logo-item {
+      margin: 0 16px 8px;
+    }
+  }
 }
 
 .non-student-cta__content {
   text-align: center;
   padding: 28px 30px;
-  border-right: 1px solid #dedfe0;
 }
 
 .non-student-cta {
@@ -73,5 +84,19 @@
   }
   &__link {
     margin-top: 20px;
+  }
+  &__block {
+    &:first-child {
+      border-right: 1px solid #dedfe0;
+    }
+  }
+  @include mediaMoblie(767px) {
+    padding: 0 15px;
+    &__block {
+      &:first-child {
+        border-right: 0;
+        border-bottom: 1px solid #dedfe0;
+      }
+    }
   }
 }

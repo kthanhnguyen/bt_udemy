@@ -21,7 +21,7 @@
 @mixin mediaQuery($screen) {
   @if map-has-key($map: $breakpoints, $key: $screen) {
     $value: map-get($map: $breakpoints, $key: $screen);
-    @media screen and (max-width: ($value - 1)) {
+    @media screen and (max-width: ($value)) {
       @content;
     }
   }
@@ -39,6 +39,12 @@
   }
   @else {
     @warn "`#{$screen}` khong ton tai";
+  }
+}
+
+@mixin mediaMoblie($screen) {
+  @media screen and (max-width: $screen) {
+    @content;
   }
 }
 
