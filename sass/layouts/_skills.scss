@@ -14,10 +14,6 @@
       margin-bottom: 10px;
     }
   }
-  .slick-list {
-    padding: 2px 0 8px 4px;
-    margin: -2px 8px -8px -4px;
-  }
   &__tab {
     padding: 0 0;
   }
@@ -57,7 +53,6 @@
       display: block;
       // width: 215px;
       height: 290px;
-      margin-right: 10px;
       @include transition;
       &:hover {
         .card-img-top {
