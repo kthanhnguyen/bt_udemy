@@ -8,9 +8,11 @@
     display: flex;
     align-items: center;
     margin-bottom: 18px;
-    .testimonials__avt img {
-      border-radius: 50%;
-      margin-right: 18px;
+    .testimonials__avt {
+      img {
+        border-radius: 50%;
+        margin-right: 18px;
+      }
     }
   }
   &__name {
@@ -18,6 +20,26 @@
   }
   .btn-slider {
     top: 50%;
+  }
+  .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+    button {
+      margin: 0 5px;
+      outline: none;
+      span {
+        background: #dedfe0;
+        width: 10px;
+        height: 10px;
+        display: block;
+        border-radius: 50%;
+      }
+      &.active {
+        span {
+          background: $color-gray-4;
+        }
+      }
+    }
   }
 }
 

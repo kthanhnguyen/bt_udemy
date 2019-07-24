@@ -51,7 +51,7 @@
   &__items {
     a {
       display: block;
-      // width: 215px;
+      width: 216px;
       height: 290px;
       @include transition;
       &:hover {
@@ -127,6 +127,18 @@
       }
     }
   }
+  @include mediaMoblie(767px) {
+    .owl-carousel {
+      .owl-stage-outer {
+        margin-right: -30px;
+      }
+    }
+    &__items {
+      a {
+        padding: 2px;
+      }
+    }
+  }
 }
 
 .skills__content {
@@ -165,5 +177,22 @@
   .current-price {
     font-size: 18px;
     font-weight: $fw-bold-0;
+  }
+}
+
+@include mediaMoblie(767px) {
+  .accordion-sp {
+    &__items {
+      border-bottom: 0;
+      margin-top: -1px;
+      .card-header {
+        background: $color-white-0;
+        padding: 7px 15px 10px;
+        button {
+          color: $color-black-0;
+          padding: 0;
+        }
+      }
+    }
   }
 }

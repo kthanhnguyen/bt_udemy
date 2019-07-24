@@ -80,8 +80,32 @@
     margin-left: 20px;
   }
   @include mediaMoblie(767px) {
+    li {
+      margin-bottom: 0;
+    }
     &__link {
       display: none;
+    }
+    &__bottom {
+      &-left {
+        flex-wrap: wrap;
+      }
+      &-link {
+        ul {
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          li {
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+    &__copyright {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
     }
   }
 }

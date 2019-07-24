@@ -22,7 +22,7 @@
         <button class="navbar-toggler col-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-        <div class="input-search-sp">
+        <div class="input-search-sp d-md-none">
           <form action="#">
             <button class="btn btn-outline-secondary" type="button"><i class="fa fa-search"></i></button>
           </form>
@@ -41,7 +41,7 @@
                 </div>
               </form>
             </div>
-            <div><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
+            <div class="d-md-none"><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
           </div>
 
         </div>
@@ -122,1165 +122,2362 @@
   </section>
   <section class="skills">
     <section class="page-container">
-      <div class="row skills__wrap-01">
-        <div class="col-4 skills__left">
-          <div class="skills__left-content">
-            <p class="__head">The world’s largest selection of courses</p>
-            <p>Choose from over 100,000 online video courses with new additions published every month</p>
+      <div class="d-none d-md-block">
+        <div class="row skills__wrap-01">
+          <div class="col-4 skills__left">
+            <div class="skills__left-content">
+              <p class="__head">The world’s largest selection of courses</p>
+              <p>Choose from over 100,000 online video courses with new additions published every month</p>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-12">
+            <div class="skills__tab">
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="development-tab" data-toggle="tab" href="#development" role="tab" aria-controls="development" aria-selected="true">Development</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab" aria-controls="design" aria-selected="false">Design</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="business-tab" data-toggle="tab" href="#business" role="tab" aria-controls="business" aria-selected="false">Business</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="itandsoftware-tab" data-toggle="tab" href="#itandsoftware" role="tab" aria-controls="itandsoftware" aria-selected="false">IT & <br class="d-md-block d-lg-none">Software</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="personaldevelopment-tab" data-toggle="tab" href="#personaldevelopment" role="tab" aria-controls="personaldevelopment" aria-selected="false">Personal Development</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="marketing-tab" data-toggle="tab" href="#marketing" role="tab" aria-controls="marketing" aria-selected="false">Marketing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="photography-tab" data-toggle="tab" href="#photography" role="tab" aria-controls="photography" aria-selected="false">Photography</a>
+                </li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane active" id="development" role="tabpanel" aria-labelledby="development-tab">
+                  <div class="skills__content owl-carousel owl-theme">
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh1.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name">Complete Python Bootcamp: Go from zero to hero in Python 3
+                            </h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh2.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                            <p class="skills__author">Kyle Pew</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh3.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh4.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh5.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh6.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                            <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="design" role="tabpanel" aria-labelledby="design-tab">
+                  <div class="skills__content owl-carousel owl-theme">
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh13.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh8.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                            <p class="skills__author">Kyle Pew</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh9.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh10.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh11.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh12.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                            <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="business" role="tabpanel" aria-labelledby="business-tab">
+                  <div class="skills__content owl-carousel owl-theme">
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh1.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh2.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                            <p class="skills__author">Kyle Pew</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh3.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh4.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh5.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh6.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                            <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="itandsoftware" role="tabpanel" aria-labelledby="itandsoftware-tab">
+                  <div class="skills__content owl-carousel owl-theme">
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh13.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh8.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                            <p class="skills__author">Kyle Pew</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh9.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh10.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh11.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh12.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                            <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="personaldevelopment" role="tabpanel" aria-labelledby="personaldevelopment-tab">
+                  <div class="skills__content owl-carousel owl-theme">
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh1.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh2.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                            <p class="skills__author">Kyle Pew</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh3.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh4.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh5.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh6.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                            <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="marketing" role="tabpanel" aria-labelledby="marketing-tab">
+                  <div class="skills__content owl-carousel owl-theme">
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh13.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh8.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                            <p class="skills__author">Kyle Pew</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh9.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh10.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh11.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh12.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                            <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="photography" role="tabpanel" aria-labelledby="photography-tab">
+                  <div class="skills__content owl-carousel owl-theme">
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh1.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh2.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                            <p class="skills__author">Kyle Pew</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh3.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh4.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh5.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                            <p class="skills__author">Jose Portilla</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="skills__items">
+                      <a href="#">
+                        <div class="card">
+                          <div class="card-img-top"><img src="./images/kh6.jpg" alt=""></div>
+                          <div class="card-body">
+                            <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                            <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                            <ul class="rating-stars">
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star"></span></li>
+                              <li><span class="fas fa-star-half-alt"></span></li>
+                              <li class="rating-number">
+                                <p class="rating-point">4.5</p>
+                                <p>(165,129)</p>
+                              </li>
+                            </ul>
+                            <div class="skills__price">
+                              <p class="old-price"><s>$194.99</s></p>
+                              <p class="current-price">$12.99</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
-        <div class="col-lg-8 col-md-12">
-          <div class="skills__tab">
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" id="development-tab" data-toggle="tab" href="#development" role="tab" aria-controls="development" aria-selected="true">Development</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab" aria-controls="design" aria-selected="false">Design</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="business-tab" data-toggle="tab" href="#business" role="tab" aria-controls="business" aria-selected="false">Business</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="itandsoftware-tab" data-toggle="tab" href="#itandsoftware" role="tab" aria-controls="itandsoftware" aria-selected="false">IT & <br class="d-md-block d-lg-none">Software</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="personaldevelopment-tab" data-toggle="tab" href="#personaldevelopment" role="tab" aria-controls="personaldevelopment" aria-selected="false">Personal Development</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="marketing-tab" data-toggle="tab" href="#marketing" role="tab" aria-controls="marketing" aria-selected="false">Marketing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="photography-tab" data-toggle="tab" href="#photography" role="tab" aria-controls="photography" aria-selected="false">Photography</a>
-              </li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-              <div class="tab-pane active" id="development" role="tabpanel" aria-labelledby="development-tab">
-                <div class="skills__content owl-carousel owl-theme">
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh1.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name">Complete Python Bootcamp: Go from zero to hero in Python 3
-                          </h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
+      </div>
+      <div id="accordion" class="d-sm-block d-md-none">
+        <div class="card accordion-sp__items">
+          <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link">Development</button>
+              <i class="fas fa-plus"></i>
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <div class="skills__content owl-carousel owl-theme">
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh1.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name">Complete Python Bootcamp: Go from zero to hero in Python 3
+                        </h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
                         </div>
                       </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh2.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
-                          <p class="skills__author">Kyle Pew</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh3.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh4.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh5.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh6.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
-                          <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                 </div>
-              </div>
-              <div class="tab-pane" id="design" role="tabpanel" aria-labelledby="design-tab">
-                <div class="skills__content owl-carousel owl-theme">
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh13.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh2.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                        <p class="skills__author">Kyle Pew</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
                         </div>
                       </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh8.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
-                          <p class="skills__author">Kyle Pew</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh9.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh10.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh11.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh12.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
-                          <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                 </div>
-              </div>
-              <div class="tab-pane" id="business" role="tabpanel" aria-labelledby="business-tab">
-                <div class="skills__content owl-carousel owl-theme">
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh1.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh3.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
                         </div>
                       </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh2.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
-                          <p class="skills__author">Kyle Pew</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh3.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh4.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh5.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh6.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
-                          <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                 </div>
-              </div>
-              <div class="tab-pane" id="itandsoftware" role="tabpanel" aria-labelledby="itandsoftware-tab">
-                <div class="skills__content owl-carousel owl-theme">
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh13.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh4.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
                         </div>
                       </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh8.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
-                          <p class="skills__author">Kyle Pew</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh9.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh10.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh11.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh12.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
-                          <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                 </div>
-              </div>
-              <div class="tab-pane" id="personaldevelopment" role="tabpanel" aria-labelledby="personaldevelopment-tab">
-                <div class="skills__content owl-carousel owl-theme">
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh1.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh5.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
                         </div>
                       </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh2.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
-                          <p class="skills__author">Kyle Pew</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh3.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh4.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh5.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh6.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
-                          <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                 </div>
-              </div>
-              <div class="tab-pane" id="marketing" role="tabpanel" aria-labelledby="marketing-tab">
-                <div class="skills__content owl-carousel owl-theme">
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh13.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh6.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                        <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
                         </div>
                       </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh8.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
-                          <p class="skills__author">Kyle Pew</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh9.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh10.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh11.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh12.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
-                          <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="photography" role="tabpanel" aria-labelledby="photography-tab">
-                <div class="skills__content owl-carousel owl-theme">
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh1.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh2.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
-                          <p class="skills__author">Kyle Pew</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh3.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh4.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh5.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
-                          <p class="skills__author">Jose Portilla</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="skills__items">
-                    <a href="#">
-                      <div class="card">
-                        <div class="card-img-top"><img src="./images/kh6.jpg" alt=""></div>
-                        <div class="card-body">
-                          <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
-                          <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
-                          <ul class="rating-stars">
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star"></span></li>
-                            <li><span class="fas fa-star-half-alt"></span></li>
-                            <li class="rating-number">
-                              <p class="rating-point">4.5</p>
-                              <p>(165,129)</p>
-                            </li>
-                          </ul>
-                          <div class="skills__price">
-                            <p class="old-price"><s>$194.99</s></p>
-                            <p class="current-price">$12.99</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
-
+          </div>
+        </div>
+        <div class="card accordion-sp__items">
+          <div class="card-header collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link">
+                Design
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <div class="skills__content owl-carousel owl-theme">
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh13.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh8.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                        <p class="skills__author">Kyle Pew</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh9.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh10.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh11.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh12.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                        <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card accordion-sp__items">
+          <div class="card-header collapsed" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link">
+                Business
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <div class="skills__content owl-carousel owl-theme">
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh1.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh2.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                        <p class="skills__author">Kyle Pew</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh3.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh4.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh5.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh6.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                        <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card accordion-sp__items">
+          <div class="card-header collapsed" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button">IT & Software</button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+              <div class="skills__content owl-carousel owl-theme">
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh13.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh8.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                        <p class="skills__author">Kyle Pew</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh9.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh10.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh11.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh12.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                        <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card accordion-sp__items">
+          <div class="card-header collapsed" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button">Personal Development</button>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <div class="skills__content owl-carousel owl-theme">
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh1.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh2.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                        <p class="skills__author">Kyle Pew</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh3.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh4.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh5.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh6.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                        <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card accordion-sp__items">
+          <div class="card-header collapsed" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button">
+                  Marketing
+                </button>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+            <div class="card-body">
+              <div class="skills__content owl-carousel owl-theme">
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh13.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh8.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                        <p class="skills__author">Kyle Pew</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh9.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh10.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh11.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh12.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                        <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card accordion-sp__items">
+          <div class="card-header collapsed" id="headingSeven" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button">
+                  Photography
+                </button>
+            </h5>
+          </div>
+          <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+            <div class="card-body">
+              <div class="skills__content owl-carousel owl-theme">
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh1.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh2.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>The Ultimate Guide to Game Development with Unity 2019</span></h5>
+                        <p class="skills__author">Kyle Pew</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh3.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh4.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh5.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>Complete Python Bootcamp: Go from zero to hero in Python 3</span></h5>
+                        <p class="skills__author">Jose Portilla</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="skills__items">
+                  <a href="#">
+                    <div class="card">
+                      <div class="card-img-top"><img src="./images/kh6.jpg" alt=""></div>
+                      <div class="card-body">
+                        <h5 class="card-title skills__name"><span>React Native - The Practical Guide</span></h5>
+                        <p class="skills__author">Academind by Maximilian Schwarzmüller</p>
+                        <ul class="rating-stars">
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star"></span></li>
+                          <li><span class="fas fa-star-half-alt"></span></li>
+                          <li class="rating-number">
+                            <p class="rating-point">4.5</p>
+                            <p>(165,129)</p>
+                          </li>
+                        </ul>
+                        <div class="skills__price">
+                          <p class="old-price"><s>$194.99</s></p>
+                          <p class="current-price">$12.99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1954,7 +3151,7 @@
       <div class="footer__bottom">
         <div class="page-container">
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
               <div class="footer__bottom-left">
                 <a href="/">
                   <img alt="Udemy" class="footer__logo" src="./images/logo-coral.svg">
@@ -1962,7 +3159,7 @@
                 <p class="footer__copyright">Copyright © 2019 Udemy, Inc.</p>
               </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
               <div class="footer__bottom-link">
                 <ul>
                   <li>
@@ -1971,6 +3168,9 @@
                   <li>
                     <a href="#">Privacy Policy and Cookie Policy</a>
                   </li>
+                  <li class="d-sm-block d-md-none"><a href="#">Sitemap</a>
+                  </li>
+                  <li class="d-sm-block d-md-none"><a href="#">Get The App</a></li>
                 </ul>
               </div>
             </div>

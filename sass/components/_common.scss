@@ -43,3 +43,23 @@
   margin-right: 0;
   margin-left: 0;
 }
+
+.owl-carousel .owl-item img {
+  width: auto;
+}
+
+.owl-stage {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.owl-item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto !important;
+}

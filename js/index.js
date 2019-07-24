@@ -10,7 +10,9 @@ $(document).ready(function() {
     responsiveclass: true,
     responsive: {
       0: {
-        items: 1
+        items: 1,
+        nav: false,
+        margin: 0
       },
       600: {
         items: 3
@@ -53,7 +55,9 @@ $(document).ready(function() {
     autoHeight: true,
     responsive: {
       0: {
-        items: 1
+        items: 1,
+        dots: true,
+        nav: false
       },
       600: {
         items: 3
