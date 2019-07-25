@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   $('.skills__content').owlCarousel({
     loop: false,
     items: 4,
@@ -66,5 +65,21 @@ $(document).ready(function() {
         items: 3
       }
     }
-  })
+  });
+
+  accButton($("#headingOne"), $("#collapseOne"));
+  accButton($("#headingTwo"), $("#collapseTwo"));
+
+  function accButton(idBtn, idCol) {
+    {
+      idBtn.click(function() {
+        if (idCol.hasClass("show")) {
+          $(this).find("i.fas").removeClass("fa-minius").addClass("fa-plus");
+
+        } else {
+          $(this).find("i.fas").removeClass("fa-plus").addClass("fa-minus");
+        }
+      })
+    }
+  }
 });

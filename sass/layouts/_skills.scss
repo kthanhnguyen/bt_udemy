@@ -139,6 +139,11 @@
       }
     }
   }
+  &__wrap-02 {
+    h2 {
+      margin: 20px 0 5px;
+    }
+  }
 }
 
 .skills__content {
@@ -188,6 +193,12 @@
       .card-header {
         background: $color-white-0;
         padding: 7px 15px 10px;
+        h5 {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+        }
         button {
           color: $color-black-0;
           padding: 0;
