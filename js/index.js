@@ -28,14 +28,15 @@ $(document).ready(function() {
   });
 
   $('.skills__content-02').owlCarousel({
-    loop: true,
+    loop: false,
     margin: 15,
     nav: true,
     dots: false,
     navText: ["<div class='btn-slider btn-left'><i class = 'fas fa-chevron-left'></i></div>", "<div class='btn-slider btn-right'><i class='fas fa-chevron-right'></i></div>"],
     responsive: {
       0: {
-        items: 1
+        items: 1,
+        nav: false,
       },
       600: {
         items: 3
@@ -46,7 +47,7 @@ $(document).ready(function() {
     }
   })
   $('.testimonials__content').owlCarousel({
-    loop: true,
+    loop: false,
     items: 4,
     nav: true,
     dots: false,

@@ -138,10 +138,30 @@
         padding: 2px;
       }
     }
-  }
-  &__wrap-02 {
-    h2 {
-      margin: 20px 0 5px;
+    &__wrap-02 {
+      h2 {
+        margin: 20px 0 5px;
+      }
+    }
+    &__content-02 {
+      .skills__items {
+        a {
+          width: auto;
+          height: auto;
+          .card {
+            flex-direction: row;
+            box-shadow: none;
+            border-bottom: 1px solid #f2f3f5;
+            &-img-top {
+              width: 125px;
+              height: 75px;
+            }
+            &-body {
+              padding: 0 0 0 8px;
+            }
+          }
+        }
+      }
     }
   }
 }
